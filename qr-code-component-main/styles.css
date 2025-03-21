@@ -24,7 +24,7 @@
     position: relative;
     display: inline-block;
     margin: 10%;
-    height: 450px;
+    height: 444px;
     width: 300px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
@@ -43,13 +43,22 @@
     text-align: center;
 }
 
-p:nth-child(1) {
+.text p:nth-child(1) {
     font-size: 1.2em;
     font-weight: 700;
     margin: 5%;
     color: var(--Slate-900);
 }
 
-p:nth-child(2) {
-    color: var(--Slate-500)
+.text p:nth-child(2) {
+    color: var(--Slate-500);
+}
+
+.attribution p:first-of-type {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.attribution p:last-of-type {
+    text-align: center;
 }
